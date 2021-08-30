@@ -1,0 +1,158 @@
+==10762== Memcheck, a memory error detector
+==10762== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10762== Using Valgrind-3.17.0 and LibVEX; rerun with -h for copyright info
+==10762== Command: ./tested
+==10762== Parent PID: 10731
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x109200: ft_strlen (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109243: ft_strjoin (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109483: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1092F3: ft_strjoin (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109483: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093E1: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1094C3: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093BD: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1094C3: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093E1: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1094E8: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093BD: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1094E8: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093E1: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109532: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093BD: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109532: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x109200: ft_strlen (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109543: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093E1: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109573: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093BD: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109573: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x109200: ft_strlen (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109584: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093E1: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1095A3: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1093BD: has_line_return (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1095A3: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x109200: ft_strlen (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109243: ft_strjoin (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1095B9: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1092F3: ft_strjoin (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x1095B9: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x4848C78: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10762==    by 0x48E79E3: puts (ioputs.c:35)
+==10762==    by 0x109693: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x4848C69: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10762==    by 0x48E79E3: puts (ioputs.c:35)
+==10762==    by 0x109693: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x109200: ft_strlen (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109235: ft_strjoin (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109483: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Conditional jump or move depends on uninitialised value(s)
+==10762==    at 0x1092A8: ft_strjoin (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109483: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== Syscall param write(buf) points to uninitialised byte(s)
+==10762==    at 0x496EC27: write (write.c:26)
+==10762==    by 0x48F1FEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1181)
+==10762==    by 0x48F3AF0: new_do_write (fileops.c:449)
+==10762==    by 0x48F3AF0: _IO_new_do_write (fileops.c:426)
+==10762==    by 0x48F3AF0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:423)
+==10762==    by 0x48F2814: _IO_new_file_xsputn (fileops.c:1244)
+==10762==    by 0x48F2814: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==10762==    by 0x48E7AA7: puts (ioputs.c:40)
+==10762==    by 0x109693: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==  Address 0x4a567e2 is 578 bytes inside a block of size 4,096 alloc'd
+==10762==    at 0x4842839: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10762==    by 0x48E52D3: _IO_file_doallocate (filedoalloc.c:101)
+==10762==    by 0x48F502F: _IO_doallocbuf (genops.c:347)
+==10762==    by 0x48F40BF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+==10762==    by 0x48F2814: _IO_new_file_xsputn (fileops.c:1244)
+==10762==    by 0x48F2814: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+==10762==    by 0x48E7AA7: puts (ioputs.c:40)
+==10762==    by 0x109693: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== 
+==10762== More than 10000000 total errors detected.  I'm not reporting any more.
+==10762== Final error counts will be inaccurate.  Go fix your program!
+==10762== Rerun with --error-limit=no to disable this cutoff.  Note
+==10762== that errors may occur in your program without prior warning from
+==10762== Valgrind, because errors are no longer being displayed.
+==10762== 
+==10762== 
+==10762== Process terminating with default action of signal 2 (SIGINT)
+==10762==    at 0x496EB80: read (read.c:26)
+==10762==    by 0x109442: get_next_line (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762==    by 0x109684: main (in /home/arthur/Bureau/Dev/C/exam/get_next_line/gnl_tester/tested)
+==10762== 
+==10762== HEAP SUMMARY:
+==10762==     in use at exit: 107 bytes in 1 blocks
+==10762==   total heap usage: 1,510,441 allocs, 1,510,440 frees, 327,668,668 bytes allocated
+==10762== 
+==10762== LEAK SUMMARY:
+==10762==    definitely lost: 0 bytes in 0 blocks
+==10762==    indirectly lost: 0 bytes in 0 blocks
+==10762==      possibly lost: 0 bytes in 0 blocks
+==10762==    still reachable: 107 bytes in 1 blocks
+==10762==         suppressed: 0 bytes in 0 blocks
+==10762== Reachable blocks (those to which a pointer was found) are not shown.
+==10762== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10762== 
+==10762== Use --track-origins=yes to see where uninitialised values come from
+==10762== For lists of detected and suppressed errors, rerun with: -s
+==10762== ERROR SUMMARY: 10000000 errors from 21 contexts (suppressed: 0 from 0)
